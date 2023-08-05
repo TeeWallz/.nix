@@ -6,4 +6,4 @@
   #ssh
   services.openssh.enable = true;
 1. ssh nixos@ip
-2. `nixos-rebuild switch --flake github:git@github.com:TeeWallz/.nix.git#zamorak`
+2. `nixos-rebuild switch --flake github:TeeWallz/.nix#zamorak`

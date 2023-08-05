@@ -125,7 +125,7 @@ in
       modules = [
         hm-nixos
         agenix.nixosModules.age
-        self.homes.brandon.server
+        self.homes.tom.server
         ./zamorak.nix
       ];
     };
