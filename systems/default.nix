@@ -117,5 +117,17 @@ in
         ./bartleby.nix
       ];
     };
+
+    
+    zamorak = nixosSystem rec {
+      pkgs = mkPkgs { inherit system; };
+      system = "x86_64-linux";
+      modules = [
+        hm-nixos
+        agenix.nixosModules.age
+        self.homes.brandon.server
+        ./zamorak.nix
+      ];
+    };
   };
 }

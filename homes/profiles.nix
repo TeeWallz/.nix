@@ -5,10 +5,10 @@
 # in systems and homes.
 {
   # My standard profile
-  brandon = {
-    username = "brandon";
-    name = "Brandon Blaylock";
-    email = "brandon@null.pub";
+  tom = {
+    username = "tom";
+    name = "Thomas Waller";
+    email = "thomas.r.waller@gmail.com";
     signingkey = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIKApq/9Vfhbk1M5wu0XmnajPCl/KlrL4bW6llSjReniR";
     keys = [
       # Keychain Yubkey A

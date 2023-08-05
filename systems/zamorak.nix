@@ -2,7 +2,7 @@
 
 {
   imports = [
-    ./hardware/nuc.nix
+    ./hardware/laptop_virtlib.nix
     ./common/minimal.nix
     ./nixos/zfs.nix
     ./nixos/common.nix
@@ -28,7 +28,7 @@
       configFile.path = config.age.secrets."tuna-wifi".path;
     };
   };
-  
+
   # Firewall
   networking.firewall.enable = true;
   networking.firewall.allowedUDPPorts = [ 22 53 631 5353 ];
